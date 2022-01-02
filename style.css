@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-family: "Georgia", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body {
+    background: linear-gradient(90deg, #dac6c6, #bfc2db);
+}
+
+.block {
+    display: block;
+    margin:auto;
+    border-radius: 25px;
+    width: min(70%, 500px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+}
+
+#contents {
+    margin-top: 2rem;
+    height: 300px;
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.recipe {
+    padding: 5px;
+    font-size: 22px;
+}
+
+a {
+    color: black;
+}
